@@ -1,0 +1,63 @@
+header{
+    background-color: lightgray;
+}
+.superior{
+    text-align: left;
+    font-family: 'Amatic SC', cursive;
+}
+.boton{
+    font-size: xx-large;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+.botones{
+    display: flex;
+    justify-content: right;
+    
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+body{
+    background-color: gray;
+}
+.contenido{
+    font-family: 'Amatic SC', cursive;
+    font-size: xx-large;
+}
+.entrenamiento{
+    display:flex;
+    background-color: lightgoldenrodyellow;
+    text-align: right;
+    justify-content: right;
+}
+.textoE{
+    margin-left: 14.5em;
+}
+.dieta{
+    display: flex;
+    text-align: left;
+    background-color: lightgoldenrodyellow;
+}
+.textoD{
+    margin-right: 6.3em;
+}
+.recomendaciones{
+    display: flex;
+    text-align: right;
+    background-color: lightgoldenrodyellow;
+    justify-content: right;
+}
+.imagenR{
+    text-align: left;
+}
+.textoR{
+    margin-left: 11.2em;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    background-color: lightgray;
+}
+.cierre{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: large;
+}

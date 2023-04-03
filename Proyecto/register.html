@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/register_style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!--Fuentes-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+        <!--Fuentes-->
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img src="images/intento de imagen.PNG" style="width: 30em;">
+            </a>
+        </header>
+        <hr>
+        <section>
+            <form id="formulario" novalidate>
+                <div class="container">
+                    <div class="ingreso">
+                        <label>Correo electronico</label>
+                        <input type="email" id="email" name="correo" placeholder="xxx@gmail.com" required>
+                        <span id="mensaje"></span>
+                    </div>
+                    <div class="ingreso">
+                        <label>Rut</label>
+                        <input type="text" id="rut" name="rut" placeholder="xxxxxxxx-x" required>
+                        <span id="mensaje"></span>
+                    </div>
+                    <div class="ingreso">
+                        <label>Contraseña</label>
+                        <input type="password" id="contrasena" name="contraseña" placeholder="contraseña" required>
+                        <span id="mensaje"></span>
+                    </div>
+                    <div class="ingreso">
+                        <label>Confirmacion Contraseña</label>
+                        <input type="password" id="concontrasena" placeholder="contraseña" required>
+                        <span></span>
+                    </div>
+                    <button type="submit">Registrarse</button>
+                </div>
+            </form>
+            <a href="index.html">
+                <button>Volver</button>
+            </a>
+        </section>
+        <script src="js/register.js" async defer></script>
+    </body>
+</html>

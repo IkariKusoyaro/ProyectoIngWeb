@@ -1,0 +1,35 @@
+header {
+  background-color: lightgray;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+body {
+  background-color: gray;
+}
+
+section {
+  text-align: left;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: 5px solid gray;
+  font-family: "Amatic SC", cursive;
+  background-color: lightgoldenrodyellow;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+footer {
+  background-color: lightgray;
+}
+
+.cierre {
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: large;
+}
+
+/*# sourceMappingURL=entrenamiento.css.map */
